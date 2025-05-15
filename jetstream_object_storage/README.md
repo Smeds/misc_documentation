@@ -56,7 +56,7 @@ This command will mount the bucket to a folder named ga2.
 
  ```bash
  mkdir ga2
- s3fs genomeark ga2   -o url=https://js2.jetstream-cloud.org:8001   -o use_path_request_style   -o nonempty   -o public_bucket=1
+ s3fs genomeark ga2   -o url=https://js2.jetstream-cloud.org:8001   -o use_path_request_style -o public_bucket=1
  ```
 
 # Rclone
@@ -117,6 +117,8 @@ Additional commands can be found at [https://rclone.org/commands/](https://rclon
 # python
 
 You can also access the data using Python libraries such as boto3. This repository includes a Python script that demonstrates how files can be accessed and read from the object store.
+
+See [access_object_storage.py](access_object_storage.py) for an example of how to access files using Python.
 
 # HTTP Access 
 
