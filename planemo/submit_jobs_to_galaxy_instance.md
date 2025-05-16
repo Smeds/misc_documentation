@@ -74,6 +74,7 @@ TARGET_Sequence:
 
 **Example files stored public accessible**
 ```yaml
+# job.yaml
 QUERY_Sequence:
   class: File
   location: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/008/865/GCF_000008865.2_ASM886v2/GCF_000008865.2_ASM886v2_genomic.fna.gz
