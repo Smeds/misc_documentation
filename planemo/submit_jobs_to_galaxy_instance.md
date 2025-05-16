@@ -52,6 +52,7 @@ The documentation can be found at [Generate the job file](https://planemo.readth
 
 For this workflow the actual job input file is simple
 ```yaml
+# job.yaml
 QUERY_Sequence:
   class: File
   path: PATH_TO/fasta_file_1.fna
@@ -62,6 +63,7 @@ TARGET_Sequence:
 
 **Example local file**
 ```yaml
+# job.yaml
 QUERY_Sequence:
   class: File
   path: GCF_000008865.2_ASM886v2_genomic.fna
