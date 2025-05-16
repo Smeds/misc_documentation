@@ -44,7 +44,8 @@ WORKFLOW_ID example `1dbfdd2e4b984bae`
 
 Planemo can generate the job input file using the workflow file
 ```bash
-planemo workflow_job_init align_chain_net/align_chain_net.ga -o job.yaml
+wget https://raw.githubusercontent.com/galaxyproject/alignment-pipeline/refs/heads/main/workflows/align_chain_net/align_chain_net.ga
+planemo workflow_job_init align_chain_net.ga -o job.yaml
 ```
 
 The documentation can be found at [Generate the job file](https://planemo.readthedocs.io/en/latest/running.html#generating-the-job-file)
