@@ -87,7 +87,7 @@ TARGET_Sequence:
 After the job input file and profile has been created it is easy to run the analysis. There are many
 options of running the analysis and here's a few example:
 
-**NOTE:** It is recommended to use an imported workflow by submitting with a WORKFLOW_ID. Submitting a workflow file each time will upload and import a new copy, leading to redundant entries in the workflow list. Using an imported workflow id also allows you to list all invocations created by that workflow—whereas workflows uploaded on-the-fly will each have only a single associated invocation.
+**NOTE:** It is recommended to use a imported workflow by submitting with a WORKFLOW_ID. Submitting a workflow file each time will upload and import a new copy, leading to redundant entries in the workflow list. Using an imported workflow id also allows you to list all invocations created by that workflow—whereas workflows uploaded on-the-fly will each have only a single associated invocation.
 
 Submit the analysis and don't wait until the job has completed/failed, will only wait for any files to be upload to the galaxy instance.
 ```bash
